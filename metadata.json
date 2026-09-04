@@ -1,0 +1,6 @@
+{
+  "name": "Optiva - Srovnávač internetu, tarifů a televize",
+  "description": "Nezávislý srovnávač telekomunikačních služeb pro pevný optický internet na doma od 199 Kč, mobilní tarify a digitální televizi od 59 Kč s garancí neveřejných cen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
