@@ -268,7 +268,7 @@ export default function Landing() {
                       <div className="bg-neutral-100 p-1.5 rounded-xl grid grid-cols-3 gap-1 shadow-inner">
                         {[
                           { id: 'Internet', label: 'Internet', price: 'od 199 Kč/m' },
-                          { id: 'TV', label: 'Televize', price: 'od 59 Kč/m' },
+                          { id: 'TV', label: 'Televize', price: 'od 59 Kč' },
                           { id: 'Tarify', label: 'Tarify', price: 'od 199 Kč/m' }
                         ].map((type) => (
                           <button

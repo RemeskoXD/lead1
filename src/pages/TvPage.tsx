@@ -95,7 +95,7 @@ export default function TvPage() {
   return (
     <div className="min-h-screen bg-neutral-50 font-sans text-gray-900 flex flex-col selection:bg-blue-100 selection:text-blue-900">
       <SEOHead 
-        title="Digitální televize (IPTV) od 59 Kč/m s archivem a sportem | Optiva"
+        title="Digitální televize (IPTV) od 59 Kč s archivem a sportem | Optiva"
         description="Srovnání internetové televize O2 TV, T-Mobile TV, Vodafone TV a nezávislých IPTV od 59 Kč/měsíc. Až 140 stanic, 7denní archiv, Liga mistrů, F1, HBO a sledování na 4 zařízeních bez set-top boxu."
         keywords="internetová televize od 59 Kč, IPTV televize, levná televize, O2 TV srovnání, T-Mobile TV, Vodafone TV, sportovní kanály, Nova Sport, Premier Sport, Liga mistrů živě"
         breadcrumbs={[{ name: 'Digitální televize', url: '/televize' }]}
@@ -122,7 +122,7 @@ export default function TvPage() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-950 font-display tracking-tight leading-[1.1]">
-              Špičková televize s archivem a sportem od <span className="text-blue-600 underline decoration-emerald-400">59 Kč/m</span>
+              Špičková televize s archivem a sportem od <span className="text-blue-600 underline decoration-emerald-400">59 Kč</span>
             </h1>
 
             <p className="text-base sm:text-lg text-gray-600 font-medium leading-relaxed max-w-2xl">
