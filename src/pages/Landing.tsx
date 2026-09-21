@@ -68,6 +68,10 @@ export default function Landing() {
       });
 
       if (res.ok) {
+        // Meta Pixel - Track SubmitApplication event
+        if (typeof window !== 'undefined' && (window as any).fbq) {
+          (window as any).fbq('track', 'SubmitApplication');
+        }
         setSubmitted(true);
       } else {
         alert('Něco se pokazilo. Zkuste to prosím znovu.');
@@ -344,6 +348,11 @@ export default function Landing() {
                   <button
                     type="submit"
                     disabled={loading}
+                    onClick={() => {
+                      if (typeof window !== 'undefined' && (window as any).fbq) {
+                        (window as any).fbq('track', 'SubmitApplication');
+                      }
+                    }}
                     className="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-bold text-lg shadow-lg shadow-blue-500/20 transform transition-all active:scale-[0.98] disabled:opacity-75 disabled:cursor-not-allowed flex items-center justify-center gap-2 cursor-pointer"
                   >
                     {loading ? 'Vyhledávám...' : 'Srovnat nabídky a ušetřit'}

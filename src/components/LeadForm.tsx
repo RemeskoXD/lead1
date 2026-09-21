@@ -93,6 +93,10 @@ export default function LeadForm({
       });
 
       if (res.ok) {
+        // Meta Pixel - Track SubmitApplication event
+        if (typeof window !== 'undefined' && (window as any).fbq) {
+          (window as any).fbq('track', 'SubmitApplication');
+        }
         setSubmitted(true);
       } else {
         alert('Něco se pokazilo. Zkuste to prosím znovu.');
@@ -330,6 +334,11 @@ export default function LeadForm({
             <button
               type="submit"
               disabled={loading}
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).fbq) {
+                  (window as any).fbq('track', 'SubmitApplication');
+                }
+              }}
               className="w-full py-3.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-[0.99] text-white font-bold text-sm sm:text-base transition-all duration-200 shadow-lg shadow-blue-600/25 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 mt-4"
             >
               {loading ? (
