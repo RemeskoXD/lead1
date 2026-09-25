@@ -164,7 +164,7 @@ export default function LeadForm({
                 </span>
                 <div className="grid grid-cols-3 gap-1.5 bg-neutral-100 p-1.5 rounded-xl">
                   {[
-                    { id: 'Internet', label: 'Internet', price: 'od 199 Kč' },
+                    { id: 'Internet', label: 'Internet', price: 'od 299 Kč' },
                     { id: 'TV', label: 'Televize', price: 'od 59 Kč' },
                     { id: 'Tarify', label: 'Tarif', price: 'od 199 Kč' }
                   ].map((srv) => (

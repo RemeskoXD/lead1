@@ -74,13 +74,13 @@ const ALL_CITIES: CityCoverage[] = [
   { name: 'Přerov', region: 'Olomoucký kraj', providers: 'Nej.cz, PODA optika, Fofrnet, CETIN, Vodafone kabel, O2' },
   { name: 'Šumperk', region: 'Olomoucký kraj', providers: 'ŠumperkNet, CETIN optika, Vodafone, O2, T-Mobile' },
   { name: 'Hranice', region: 'Olomoucký kraj', providers: 'PODA optika, Nej.cz, CETIN, Vodafone kabel, O2' },
-  { name: 'Jeseník', region: 'Olomoucký kraj', providers: 'WMS s.r.o. optika, CETIN VDSL, Vodafone, O2, T-Mobile' },
+  { name: 'Jeseník', region: 'Olomoucký kraj', providers: 'WMS optika, CETIN VDSL, Vodafone, O2, T-Mobile' },
   { name: 'Litovel', region: 'Olomoucký kraj', providers: 'Fofrnet, CETIN optika, Vodafone, O2, PODA' },
   { name: 'Zábřeh', region: 'Olomoucký kraj', providers: 'ŠumperkNet, CETIN optika, Vodafone, O2, T-Mobile' },
 
   // Královéhradecký kraj
   { name: 'Hradec Králové', region: 'Královéhradecký kraj', providers: 'Magentic / HKFree, CETIN FTTH, Vodafone kabel, O2, T-Mobile optika' },
-  { name: 'Trutnov', region: 'Královéhradecký kraj', providers: 'HDnet s.r.o. optika, CETIN FTTH, Vodafone, O2, T-Mobile' },
+  { name: 'Trutnov', region: 'Královéhradecký kraj', providers: 'HDnet optika, CETIN FTTH, Vodafone, O2, T-Mobile' },
   { name: 'Náchod', region: 'Královéhradecký kraj', providers: 'NáchodNet, CETIN optika, Vodafone, O2, T-Mobile' },
   { name: 'Jičín', region: 'Královéhradecký kraj', providers: 'Dragon Internet, CETIN optika, Vodafone, O2, T-Mobile' },
   { name: 'Dvůr Králové nad Labem', region: 'Královéhradecký kraj', providers: 'HDnet, CETIN VDSL/FTTH, Vodafone, O2, T-Mobile' },
@@ -256,7 +256,7 @@ export default function LocalCoverage() {
                   <CheckCircle2 className="w-3 h-3 text-emerald-600" /> Ověřeno
                 </span>
                 <span className="text-gray-400 group-hover:text-blue-600 transition-colors">
-                  od 199 Kč
+                  od 299 Kč
                 </span>
               </div>
             </div>

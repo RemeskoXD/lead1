@@ -105,9 +105,9 @@ export default function Landing() {
   return (
     <div className="min-h-screen bg-neutral-50 font-sans text-gray-900 overflow-x-hidden selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       <SEOHead 
-        title="Optiva - Srovnávač internetu od 199 Kč, TV od 59 Kč a 5G tarifů"
+        title="Optiva - Srovnávač internetu od 299 Kč, TV od 59 Kč a 5G tarifů"
         description="Nezávislý srovnávač operátorů v ČR. Ušetřete v průměru 3 140 Kč ročně na pevném optickém internetu, mobilních tarifech a digitální TV s neveřejnými slevami."
-        keywords="srovnávač internetu, levný internet od 199 Kč, televize od 59 Kč, srovnání tarifů, T-Mobile, O2, Vodafone, optický internet, neomezená data, úspora za internet"
+        keywords="srovnávač internetu, levný internet od 299 Kč, televize od 59 Kč, srovnání tarifů, T-Mobile, O2, Vodafone, optický internet, neomezená data, úspora za internet"
         faqs={faqs.map(f => ({ question: f.q, answer: f.a }))}
         productPrice={{
           name: "Srovnání a zprostředkování telekomunikačních služeb",
@@ -271,7 +271,7 @@ export default function Landing() {
                       </span>
                       <div className="bg-neutral-100 p-1.5 rounded-xl grid grid-cols-3 gap-1 shadow-inner">
                         {[
-                          { id: 'Internet', label: 'Internet', price: 'od 199 Kč/m' },
+                          { id: 'Internet', label: 'Internet', price: 'od 299 Kč/m' },
                           { id: 'TV', label: 'Televize', price: 'od 59 Kč' },
                           { id: 'Tarify', label: 'Tarify', price: 'od 199 Kč/m' }
                         ].map((type) => (

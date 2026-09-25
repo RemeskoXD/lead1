@@ -81,9 +81,9 @@ const COMPARISON_DATA: CategoryData[] = [
         o2: { name: 'Internet HD Základní', price: 399, extraNote: '+ modem 69 Kč/měs.' },
         vodafone: { name: 'Pevný internet 100', price: 390, extraNote: '+ modem 70 Kč/měs.' },
         optiva: {
-          price: 199,
-          note: 'Akční neveřejná cena (199 Kč/m + 70 Kč modem)',
-          savingsYear: 2400
+          price: 299,
+          note: 'Akční neveřejná cena (299 Kč/m + 70 Kč modem)',
+          savingsYear: 1200
         }
       },
       {
@@ -101,9 +101,9 @@ const COMPARISON_DATA: CategoryData[] = [
         o2: { name: 'Internet HD Bronzový', price: 499, extraNote: '+ modem 69 Kč/měs.' },
         vodafone: { name: 'Pevný internet 250', price: 490, extraNote: '+ modem 70 Kč/měs.' },
         optiva: {
-          price: 299,
+          price: 349,
           note: 'Neveřejná partnerská sazba (+ 70 Kč modem)',
-          savingsYear: 3120
+          savingsYear: 1800
         }
       },
       {
@@ -741,7 +741,7 @@ export default function PriceComparator({
               <span className="text-xs font-bold text-gray-900 group-hover:text-blue-700">Internet na doma</span>
             </div>
             <span className="text-[11px] text-gray-400 font-medium mt-2 flex items-center gap-1 group-hover:text-blue-600">
-              Od 199 Kč/m (+ 70 Kč modem) <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+              Od 299 Kč/m (+ 70 Kč modem) <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
             </span>
           </Link>
 

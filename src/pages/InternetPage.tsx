@@ -47,7 +47,7 @@ export default function InternetPage() {
     },
     {
       question: 'Kolik přesně stojí modem k internetu?',
-      answer: 'K základnímu akčnímu tarifu od 199 Kč/měsíc je pronájem moderního dvoupásmového Wi-Fi modemu za 70 Kč/měsíc. Máte tak kompletní spolehlivou linku včetně hardwaru za bezkonkurenčních 269 Kč měsíčně.'
+      answer: 'K základnímu akčnímu tarifu od 299 Kč/měsíc je pronájem moderního dvoupásmového Wi-Fi modemu za 70 Kč/měsíc. Máte tak kompletní spolehlivou linku včetně hardwaru za bezkonkurenčních 369 Kč měsíčně.'
     },
     {
       question: 'Musím stávající smlouvu vypovídat sám?',
@@ -68,9 +68,9 @@ export default function InternetPage() {
       tmobilePrice: 399,
       o2Price: 399,
       vodafonePrice: 390,
-      optivaPrice: 199,
+      optivaPrice: 299,
       modemNote: '+ modem 70 Kč/měs.',
-      yearlySavings: 2400,
+      yearlySavings: 1200,
       features: ['100 Mb/s stahování', '20–30 Mb/s nahrávání', 'Neomezená data bez FUP', 'Podpora optiky i stabilního VDSL']
     },
     {
@@ -81,9 +81,9 @@ export default function InternetPage() {
       tmobilePrice: 499,
       o2Price: 499,
       vodafonePrice: 490,
-      optivaPrice: 299,
+      optivaPrice: 349,
       modemNote: '+ modem 70 Kč/měs.',
-      yearlySavings: 3120,
+      yearlySavings: 1800,
       features: ['250 Mb/s stahování', '50 Mb/s nahrávání', 'Neomezená data', 'Podpora optiky i VDSL/5G']
     },
     {
@@ -120,15 +120,15 @@ export default function InternetPage() {
   return (
     <div className="min-h-screen bg-neutral-50 font-sans text-gray-900 flex flex-col selection:bg-blue-100 selection:text-blue-900">
       <SEOHead 
-        title="Optický internet na doma od 199 Kč/m (+ 70 Kč modem) | Optiva"
-        description="Srovnání cen optického a VDSL internetu pro vaši adresu od 199 Kč/měsíc (+ 70 Kč modem). Porovnání T-Mobile, O2, Vodafone a lokálních optických providerů v ČR s úsporou až 45 %."
-        keywords="optický internet, internet na doma od 199 Kč, levný internet, CETIN, VDSL internet, srovnání poskytovatelů internetu, T-Mobile internet, O2 internet, Vodafone internet"
+        title="Optický internet na doma od 299 Kč/m (+ 70 Kč modem) | Optiva"
+        description="Srovnání cen optického a VDSL internetu pro vaši adresu od 299 Kč/měsíc (+ 70 Kč modem). Porovnání T-Mobile, O2, Vodafone a lokálních optických providerů v ČR s úsporou až 45 %."
+        keywords="optický internet, internet na doma od 299 Kč, levný internet, CETIN, VDSL internet, srovnání poskytovatelů internetu, T-Mobile internet, O2 internet, Vodafone internet"
         breadcrumbs={[{ name: 'Internet na doma', url: '/internet' }]}
         faqs={internetFaqs}
         productPrice={{
           name: "Optický a kabelový internet na doma",
           description: "Neveřejné ceny pevného internetu od 100 Mb/s do 1 000 Mb/s (Gigabit)",
-          lowPrice: 199,
+          lowPrice: 299,
           priceCurrency: "CZK"
         }}
       />
@@ -147,7 +147,7 @@ export default function InternetPage() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-950 font-display tracking-tight leading-[1.1]">
-              Nejrychlejší internet na vaší adrese od <span className="text-blue-600 underline decoration-emerald-400">199 Kč/m</span> <span className="text-base sm:text-xl font-semibold text-gray-500 whitespace-nowrap">(+ 70 Kč modem)</span>
+              Nejrychlejší internet na vaší adrese od <span className="text-blue-600 underline decoration-emerald-400">299 Kč/m</span> <span className="text-base sm:text-xl font-semibold text-gray-500 whitespace-nowrap">(+ 70 Kč modem)</span>
             </h1>
 
             <p className="text-base sm:text-lg text-gray-600 font-medium leading-relaxed max-w-2xl">

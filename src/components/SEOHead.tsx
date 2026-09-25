@@ -51,7 +51,7 @@ export default function SEOHead({
       setMeta('name', 'keywords', keywords);
     }
     setMeta('name', 'robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
-    setMeta('name', 'author', 'Optiva Telekomunikace');
+    setMeta('name', 'author', 'Optiva');
 
     // OpenGraph
     setMeta('property', 'og:title', title);

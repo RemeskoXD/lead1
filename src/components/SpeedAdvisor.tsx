@@ -50,9 +50,9 @@ export default function SpeedAdvisor({ onSelectPlan }: SpeedAdvisorProps) {
       return {
         speed: '100 Mb/s',
         name: 'Internet 100 Mb/s (Základ)',
-        optivaPrice: 199,
+        optivaPrice: 299,
         normalPrice: 399,
-        yearlySavings: 2400,
+        yearlySavings: 1200,
         badge: 'Ideální pro vaši spotřebu',
         summary: 'Pro běžné surfování a HD videa naprosto dostačující. Nemá smysl platit víc, než skutečně využijete.',
         specs: ['Rychlé načítání webů a e-mailů', 'Full HD streamování bez záseků', 'Neomezená data']
@@ -61,9 +61,9 @@ export default function SpeedAdvisor({ onSelectPlan }: SpeedAdvisorProps) {
       return {
         speed: '250 Mb/s',
         name: 'Internet 250 Mb/s (Běžná domácnost)',
-        optivaPrice: 299,
+        optivaPrice: 349,
         normalPrice: 499,
-        yearlySavings: 3120,
+        yearlySavings: 1800,
         badge: 'Optimální poměr cena / výkon',
         summary: 'Perfektní volba pro pár nebo rodinu s home office a večerním Netflixem ve 4K.',
         specs: ['Plynulý home office & Teams hovory', 'Streamování 4K videa na 2 obrazovkách', 'Rychlé odesílání příloh']

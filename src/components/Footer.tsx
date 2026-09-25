@@ -96,18 +96,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* Verification / operator details badge at the very bottom */}
-      <div className="pb-6 pt-3 flex justify-center items-center select-none px-4">
-        <img 
-          src="/legal-notice.png" 
-          alt="" 
-          aria-hidden="true"
-          role="presentation"
-          className="h-8 sm:h-9 md:h-10 w-auto max-w-full object-contain opacity-80 hover:opacity-100 transition-opacity select-none"
-          loading="lazy"
-        />
-      </div>
     </footer>
   );
 }

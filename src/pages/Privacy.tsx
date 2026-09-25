@@ -11,7 +11,7 @@ export default function Privacy() {
     <div className="min-h-screen bg-neutral-50 font-sans text-gray-900 overflow-x-hidden selection:bg-blue-100 selection:text-blue-900 flex flex-col">
       <SEOHead 
         title="Ochrana osobních údajů a GDPR | Optiva"
-        description="Zásady zpracování a ochrany osobních údajů (GDPR) společnosti Optiva. Bezpečnost a transparentnost při srovnání telekomunikačních služeb."
+        description="Zásady zpracování a ochrany osobních údajů (GDPR) pro projekt Optiva. Bezpečnost a transparentnost při srovnání telekomunikačních služeb."
         breadcrumbs={[{ name: 'Ochrana osobních údajů', url: '/ochrana-osobnich-udaju' }]}
       />
       <Navbar />
@@ -38,15 +38,10 @@ export default function Privacy() {
             </p>
 
             <div className="bg-neutral-50 p-5 rounded-2xl border border-gray-200/80">
-              <h2 className="text-md sm:text-lg font-bold text-blue-950 mb-3 font-display">Identifikace správce údajů:</h2>
-              <img 
-                src="/legal-notice.png" 
-                alt="" 
-                aria-hidden="true"
-                role="presentation"
-                className="h-10 sm:h-12 w-auto max-w-full object-contain select-none" 
-                loading="lazy" 
-              />
+              <h2 className="text-md sm:text-lg font-bold text-blue-950 mb-2 font-display">Správce údajů:</h2>
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                Správcem osobních údajů pro účely nezávazného srovnání a zprostředkování telekomunikačních nabídek je srovnávací služba Optiva. S vašimi údaji nakládáme s maximální péčí v souladu s platnými právními předpisy ČR a EU.
+              </p>
             </div>
 
             <div className="bg-blue-50/50 p-6 rounded-2xl border border-blue-100/60 shadow-inner">
